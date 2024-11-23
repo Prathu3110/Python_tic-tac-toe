@@ -168,7 +168,7 @@ def checkwinner(x):
 
 # check for tie
 
-    elif count==9 and winner == False:
+    elif count==9 and not winner:
         global buttonsl
         for i in buttonsl:
             i.config(bg="Yellow")
