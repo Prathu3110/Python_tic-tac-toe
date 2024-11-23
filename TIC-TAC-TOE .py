@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 #making windows
 window=Tk()
-window.title("prathyumna's TIC TAC TOE" )
+window.title("TIC TAC TOE" )
 window.geometry("414x448")
 
 
